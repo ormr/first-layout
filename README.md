@@ -1,1 +1,1 @@
-# euclid-alghorith
+# euclid-alghorithm
