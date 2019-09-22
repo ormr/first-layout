@@ -159,3 +159,7 @@ label {
   text-align: center;
   margin: 50px 0;
 }
+.output {
+  color: mix(black, $muted-color, 30%);
+  font-size: 20px;
+}
