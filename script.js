@@ -10,7 +10,15 @@ function GCF() {
 	}
 	// output a + b
 	document.write(`
+		<div style="text-align: center">
 	<p style="font-size: 44px; font-family: 'Montserrat'; color: #3636b3;">
 		НОД: ${a + b}
-	</p>`);
+	</p>
+	<a href="https://serafim-gavrilov.github.io/" 
+	style="padding: 10px; background-color: #3636b3; color: #fff; text-decoration: none;
+	font-family: 'Montserrat'; border-radius: 10px;">
+		Вернуться
+	</a>
+	</div>
+	`);
 }
