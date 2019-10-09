@@ -14,11 +14,11 @@ function GCF() {
 	<p style="font-size: 44px; font-family: 'Montserrat'; color: #3636b3;">
 		НОД: ${a + b}
 	</p>
-	<a href="https://serafim-gavrilov.github.io/" 
-	style="padding: 10px; background-color: #3636b3; color: #fff; text-decoration: none;
+	<button onclick="location.reload();"
+	style="border: 0; padding: 1rem 2rem; background-color: #3636b3; color: #fff; text-decoration: none;
 	font-family: 'Montserrat'; border-radius: 10px;">
 		Вернуться
-	</a>
+	</button>
 	</div>
 	`);
 }
