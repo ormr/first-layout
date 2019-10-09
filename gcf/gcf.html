@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Киберпанк</title>
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/styles.css">
+	<link rel="stylesheet" href="../styles/bootstrap/bootstrap.min.css">
+</head>
+<body class="body-font">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand navbar-title_a" href="../index.html">Киберпанк</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Алгоритмы Евклида
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="gcf.html">Обычный алгоритм Евклида</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="extended-gcf.html">Расширенный алгоритм Евклида</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="wrapper">
+    <form>
+        <h1>Алгоритм Евклида</h1>
+        <h5>НОД(<span class="symbol">X</span>,<span class="symbol"> Y</span>)</h5>
+        <hr class="sep" />
+        <div class="group">
+          <input id="num1" type="number" required="required" />
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>A:</label>
+        </div>
+        <div class="group">
+          <input id="num2" type="number" required="required" />
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>B:</label>
+        </div>
+        <div onclick="GCF()" class="btn-box">
+          <button class="btn btn-submit" type="submit">Найти</button>
+        </div>
+        </div>
+    </form>
+</div>
+  <script src="../script/gcf.js"></script>
+<script src="../script/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="../script/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

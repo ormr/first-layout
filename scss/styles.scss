@@ -1,12 +1,35 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-*,
-:before,
-:after {
-  box-sizing: border-box; }
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+$header-font: 'Press Start 2P', cursive;
 
-body {
-  background: #fff;
-  font-family: 'Montserrat', sans-serif; }
+.body-font {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-title_a {
+	font-family: $header-font;
+}
+.gradient {
+  padding: 20px;
+  letter-spacing: 0.2em;
+  border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
+  border-image-slice: 1;
+}
+.image {
+	background: url('../images/main.jpg') no-repeat center top / cover;
+	height: 92vh;
+}
+.title{
+	padding-top: 30vh;
+	display: flex;
+	justify-content: center;
+
+}
+.title-h1 {
+	font-size: 32px;
+	color: #fff;
+	font-family: $header-font;
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
 form {
   width: 360px;
@@ -129,4 +152,6 @@ label {
   color: #3636b3;
   font-size: 20px; }
 
-/*# sourceMappingURL=style.css.map */
+.symbol {
+  color: #c10000;
+  font-weight: 900;}
